@@ -1,0 +1,71 @@
+# Window title
+title: Alacritty
+
+# Window class (Linux/BSD only):
+class:
+  # Application instance name
+  instance: Alacritty
+  # General application class
+  general: Alacritty
+
+window:
+  decorations: None
+  opacity: 0.8
+
+  padding:
+    x: 4
+    y: 2
+
+scrolling:
+  multiplier: 3
+
+font:
+  normal:
+    family: "Hack Nerd Font"
+    style: Regular
+
+  bold:
+    family: "Hack Nerd Font"
+    style: Bold
+
+  italic:
+    family: "Hack Nerd Font"
+    style: Italic
+
+  bold_italic:
+    family: "Hack Nerd Font"
+    style: Bold Italic
+
+draw_bold_text_with_bright_colors: true
+
+colors:
+  primary:
+    # hard contrast: background = '0x1d2021'
+    background: '#282828'
+    # soft contrast: background = '0x32302f'
+    foreground: '#ebdbb2'
+
+  # Normal colors
+  normal:
+    black:   '#282828'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#458588'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
+
+  # Bright colors
+  bright:
+    black:   '#928374'
+    red:     '#fb4934'
+    green:   '#b8bb26'
+    yellow:  '#ffaa00'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#8ec07c'
+    white:   '#ebdbb2'
+
+  # size: 13
+decorations: none
