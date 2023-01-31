@@ -43,7 +43,7 @@ alias spd="~/spotify/spotifyd/target/release/spotifyd --config-path ~/.config/sp
 # enable color support of ls and also add handy aliases
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
-    alias ll='exa -l --icons --no-user --group-directories-first'
+    alias ls='exa --icons --no-user --group-directories-first --sort mod -lr'
     alias cat=bat
     alias dir='dir --color=auto'
     alias vdir='vdir --color=auto'
