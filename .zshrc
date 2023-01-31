@@ -44,6 +44,7 @@ alias spd="~/spotify/spotifyd/target/release/spotifyd --config-path ~/.config/sp
 if [ -x /usr/bin/dircolors ]; then
     test -r ~/.dircolors && eval "$(dircolors -b ~/.dircolors)" || eval "$(dircolors -b)"
     alias ll='exa -l --icons --no-user --group-directories-first'
+    alias cat=bat
     alias dir='dir --color=auto'
     alias vdir='vdir --color=auto'
 
