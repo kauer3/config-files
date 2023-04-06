@@ -1,0 +1,15 @@
+# Ignore everything
+*
+
+# But not these files...
+!*.vimrc
+!*.vim
+!*.bashrc
+!.gitignore
+!*.zshrc
+!*.tmux.conf
+!*.profile
+!*.config
+*.config/!*
+
+# etc...

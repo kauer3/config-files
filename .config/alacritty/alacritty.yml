@@ -1,0 +1,79 @@
+# window title
+title: "Alacritty "
+dynamic_title: true
+
+# Window class (Linux/BSD only):
+# class:
+# Application instance name
+instance: Alacritty
+# General application class
+general: Alacritty
+#
+window:
+  decorations: none
+  opacity: .75
+  # opacity: .65
+
+  padding:
+    x: 0
+    y: 0
+  dynamic_padding: true
+
+cursor:
+  style:
+    blinking: Always
+  blink_timeout: 5
+  blink_interval: 500
+
+scrolling:
+  multiplier: 5
+
+font:
+  normal:
+    family: "Fira Code Nerd Font"
+    style: Regular
+
+  bold:
+    family: "Fira Code Nerd Font"
+    style: Bold
+
+  italic:
+    family: "JetBrainsMono"
+    style: Italic
+
+  bold_italic:
+    family: "JetBrainsMono"
+    style: Bold Italic
+
+draw_bold_text_with_bright_colors: true
+
+colors:
+# hard contrast: background = '0x1d2021'
+  background: '#282828'
+# soft contrast: background = '0x32302f'
+  foreground: '#ebdbb2'
+
+# Normal colors
+  normal:
+    black:   '#282828'
+    red:     '#cc241d'
+    green:   '#98971a'
+    yellow:  '#d79921'
+    blue:    '#458588'
+    magenta: '#b16286'
+    cyan:    '#689d6a'
+    white:   '#a89984'
+
+# Bright colors
+  bright:
+    black:   '#928374'
+    red:     '#fb4934'
+    green:   '#b8bb26'
+    yellow:  '#ffaa00'
+    blue:    '#83a598'
+    magenta: '#d3869b'
+    cyan:    '#8ec07c'
+    white:   '#ebdbb2'
+
+# size: 13
+decorations: none
